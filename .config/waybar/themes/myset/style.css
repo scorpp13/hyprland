@@ -165,14 +165,13 @@ window#waybar.empty #window {
  * ----------------------------------------------------- */
 
 #custom-appmenu {
-    background-color: @backgrounddark;
+    background-color: @workspacesbackground2;
     font-size: 20px;
     color: @textcolor1;
-    border-radius: 15px;
-    padding: 0px 10px 0px 10px;
-    margin: 3px 15px 3px 10px;
-    opacity:0.8;
-    border:2px solid @bordercolor;
+    border-radius: 20px;
+    padding: 0px 7px 0px 7px;
+    margin: 0px 15px 0px 10px;
+    opacity:0.5;
 }
 
 /* -----------------------------------------------------
@@ -185,8 +184,8 @@ window#waybar.empty #window {
     color: @textcolor1;
     border-radius: 20px;
     padding: 0px 16px 0px 10px;
-    margin: 0px 14px 0px 0px;
-    opacity:0.4;
+    margin: 0px 10px 0px 0px;
+    opacity:0.5;
 }
 
 /* -----------------------------------------------------
@@ -260,14 +259,14 @@ background-color: #f53c3c;
  * ----------------------------------------------------- */
 
 #clock {
-    background-color: @backgrounddark;
+    background-color: transparent;
     font-size: 16px;
-    color: @textcolor1;
+    color: @textcolor2;
     border-radius: 15px;
-    padding: 0px 10px 0px 10px;
-    margin: 3px 10px 3px 0px;
+    padding: 2px 10px 0px 10px;
+    margin: 5px 15px 5px 0px;
     opacity:0.8;
-    border:2px solid @bordercolor;   
+    border:2px solid @backgroundlight;   
 }
 
 /* -----------------------------------------------------
