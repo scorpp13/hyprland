@@ -48,8 +48,8 @@
         //"network",
         //"battery",
         "temperature",
-        "custom/exit",
         "clock",
+        "custom/exit",
     ],
 
     // Group Quicklinks
