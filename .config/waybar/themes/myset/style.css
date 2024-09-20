@@ -14,7 +14,7 @@
  * ----------------------------------------------------- */
 
 * {
-    font-family: "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-family: "Fira Sans Semibold", FontAwesome, Roboto;
     border: none;
     border-radius: 0px;
 }
@@ -169,7 +169,7 @@ window#waybar.empty #window {
     font-size: 20px;
     color: @textcolor1;
     border-radius: 20px;
-    padding: 0px 7px 0px 7px;
+    padding: 0px 9px 0px 9px;
     margin: 0px 15px 0px 10px;
     opacity:0.5;
 }
@@ -183,7 +183,7 @@ window#waybar.empty #window {
     font-size:20px;
     color: @textcolor1;
     border-radius: 20px;
-    padding: 0px 16px 0px 10px;
+    padding: 0px 10px 0px 10px;
     margin: 0px 10px 0px 0px;
     opacity:0.5;
 }
