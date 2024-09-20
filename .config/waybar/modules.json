@@ -58,9 +58,9 @@
     // Cliphist
     "custom/cliphist": {
         "format": "",
-        "on-click": "sleep 0.1 && ~/dotfiles/scripts/cliphist.sh",
-        "on-click-right": "sleep 0.1 && ~/dotfiles/scripts/cliphist.sh d",
-        "on-click-middle": "sleep 0.1 && ~/dotfiles/scripts/cliphist.sh w",
+        "on-click": "sleep 0.1 && ~/.config/scripts/cliphist.sh",
+        "on-click-right": "sleep 0.1 && ~/.config/scripts/cliphist.sh d",
+        "on-click-middle": "sleep 0.1 && ~/.config/scripts/cliphist.sh w",
         "tooltip-format": "Clipboard"
     },
 
@@ -70,46 +70,46 @@
         "tooltip-format": "{}",
         "escape": true,
         "return-type": "json",       
-        "exec": "~/dotfiles/scripts/updates.sh",
+        "exec": "~/.config/scripts/updates.sh",
         "restart-interval": 3600,
-        "on-click": "kitty -e ~/dotfiles/scripts/installupdates.sh",
-        "on-click-middle": "kitty -e ~/dotfiles/scripts/cleanup.sh",
-        "on-click-right": "kitty -e ~/dotfiles/scripts/mirrorlist.sh",
+        "on-click": "kitty -e ~/.config/scripts/installupdates.sh",
+        "on-click-middle": "kitty -e ~/.config/scripts/cleanup.sh",
+        "on-click-right": "kitty -e ~/.config/scripts/mirrorlist.sh",
     },
     
     // Wallpapers
     "custom/wallpaper": {
         "format": "",
-        "on-click": "~/dotfiles/scripts/wallpaper.sh select",
-        "on-click-right": "~/dotfiles/scripts/wallpaper.sh",
+        "on-click": "~/.config/scripts/wallpaper.sh select",
+        "on-click-right": "~/.config/scripts/wallpaper.sh",
         "tooltip-format": "Wallpapers"
     },
 
     // Themes
     "custom/waybarthemes": {
         "format": "",
-        "on-click": "~/dotfiles/waybar/themeswitcher.sh",
+        "on-click": "~/.config/waybar/themeswitcher.sh",
         "tooltip-format": "Themes"
     },
 
     // Keybindings
     "custom/keybindings": {
         "format": "",
-        "on-click": "~/dotfiles/scripts/keybindings.sh",
+        "on-click": "~/.config/scripts/keybindings.sh",
         "tooltip": false
     },
 
     // File Manager
     "custom/filemanager": {
         "format": "",
-        "on-click": "thunar",
+        "on-click": "kitty -e vifm",
         "tooltip": false
     },
 
     // Web Browser
     "custom/browser": {
         "format": "",
-        "on-click": "floorp",
+        "on-click": "vivaldi-stable",
         "tooltip": false
     },    
 
@@ -122,9 +122,9 @@
 
     // App Menu
     "custom/appmenu": {
-        "format": "",
+        "format": "",
         "on-click": "rofi -show drun -replace",
-        "on-click-right": "~/dotfiles/scripts/keybindings.sh",
+        "on-click-right": "~/.config/scripts/keybindings.sh",
         "tooltip-format": "Right click for keybinds"
     },
     
@@ -176,13 +176,13 @@
 
     // Language
     "hyprland/language": {
-        //"on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next",
-        "on-click": "hyprctl switchxkblayout lenovo-lenovo-calliope-usb-keyboard next",
+        "on-click": "hyprctl switchxkblayout at-translated-set-2-keyboard next",
+        //"on-click": "hyprctl switchxkblayout lenovo-lenovo-calliope-usb-keyboard next",
         "format": "{}",
         "format-en": "US",
         "format-ru": "RU",
-        //"keyboard-name": "at-translated-set-2-keyboard",
-        "keyboard-name": "lenovo-lenovo-calliope-usb-keyboard"
+        "keyboard-name": "at-translated-set-2-keyboard",
+        //"keyboard-name": "lenovo-lenovo-calliope-usb-keyboard"
     },
 
     // Network
