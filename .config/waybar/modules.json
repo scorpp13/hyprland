@@ -230,7 +230,7 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": [" ", " ", "󰕾 ", " "]
+            "default": [" ", " ", "󰕾 ", "  "]
         },
         "on-click": "pavucontrol",
         "on-click-middle": "pactl set-sink-mute 0 toggle"
