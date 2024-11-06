@@ -1,6 +1,6 @@
 # My config files for Hyprland
 
-A working configuration of Hyprland for Arch Linux based distributions.
+A working configuration of Hyprland for Arch-based Linux
 
 ## Installation
 
@@ -9,7 +9,11 @@ A working configuration of Hyprland for Arch Linux based distributions.
 - [ ] Install necessary software
 - [ ] Enjoy
 
-### My suggestion
+## Note
+
+This config will no longer have update!!!
+
+## My suggestion
 
 For Arch Linux the best choice is to use ML4W Hyprland from Stephan Raabe
 https://github.com/mylinuxforwork/dotfiles
