@@ -15,5 +15,5 @@ This config will no longer have update!!!
 
 ## My suggestion
 
-For Arch Linux the best choice is to use ML4W Hyprland from Stephan Raabe
+For Arch Linux the best choice is to use ML4W Hyprland of Stephan Raabe
 https://github.com/mylinuxforwork/dotfiles
